@@ -216,6 +216,7 @@
         var email = $('input[name=email]').val();
         if (name && email) {   
             localStorage.setItem("name", name);
+            location.href = "contact_us.html";
         } else {
             alert('Please fill the form');
         }
